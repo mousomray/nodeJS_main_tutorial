@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Understanding JavaScript Closures",
+      "author": "Mousom",
+      "content": "JavaScript closures are a fundamental concept that allows functions to have access to variables from their containing scope, even after that scope has finished executing.",
+      "img": "https://dmitripavlutin.com/static/00b6ed6d91a74c2e4ca5096e2d541dd7/59014/cover-5.png",
+      "date": "2024-10-01"
+    },
+    {
+      "id": 2,
+      "title": "10 Tips for Traveling on a Budget",
+      "author": "Rahul",
+      "content": "Traveling doesn't have to break the bank. Here are ten tips to help you save money while exploring new destinations.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmSpF-ATKbyHD9niu7UfZj-5C1Job4b5HE5Q&s",
+      "date": "2024-10-05"
+    },
+    {
+      "id": 3,
+      "title": "The Benefits of Mindfulness Meditation",
+      "author": "Rohit",
+      "content": "Mindfulness meditation can help reduce stress, improve focus, and enhance overall well-being. Learn how to get started today.",
+      "img": "https://www.ramana-maharshi.org/wp-content/uploads/2024/06/Comparing_Hindu_and_Buddhist_Meditation_Practices_0001.jpg",
+      "date": "2024-10-10"
+    }
+  ]
+}

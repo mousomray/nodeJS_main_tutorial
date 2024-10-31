@@ -7,6 +7,7 @@ app.set('views', 'views');
 // Make public file static
 app.use(express.static(__dirname + '/public'));
 
+// Mother of All route
 const allRouter = require('./app/router/allrouter')
 app.use(allRouter)    
 

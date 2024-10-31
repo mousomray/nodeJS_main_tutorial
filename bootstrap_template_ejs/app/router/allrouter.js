@@ -2,16 +2,14 @@ const express = require('express');
 const allcontroller = require('../controller/allcontroller');
 const router = express.Router();
 
-
-router
-    .get('/', allcontroller.home)
-    .get('/about', allcontroller.about)
-    .get('/contact', allcontroller.contact)
-    .get('/service', allcontroller.service)
-    .get('/portfolio', allcontroller.portfolio)
-    .get('/pricing', allcontroller.pricing)
-    .get('/blog', allcontroller.blog)
-    .get('/team', allcontroller.team)
-    .get('/testimonials', allcontroller.testimonials)
+router.get('/', allcontroller.home)
+router.get('/about', allcontroller.about)
+router.get('/contact', allcontroller.contact)
+router.get('/service', allcontroller.service)
+router.get('/portfolio', allcontroller.portfolio)
+router.get('/pricing', allcontroller.pricing)
+router.get('/blog', allcontroller.blog)
+router.get('/team', allcontroller.team)
+router.get('/testimonials', allcontroller.testimonials)
 
 module.exports = router;

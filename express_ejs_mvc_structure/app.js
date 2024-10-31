@@ -4,6 +4,7 @@ const app = express(); // Store into app variable
 app.set('view engine','ejs'); // View Engine of ejs 
 app.set('views','views'); // Run views file 
 
+// Mother of all route
 const allRouter = require('./app/router/allrouter')
 app.use(allRouter);
 
